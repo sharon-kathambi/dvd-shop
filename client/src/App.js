@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+
 import {useEffect} from "react";
 
 function App() {
@@ -8,6 +7,7 @@ function App() {
       .then((r) => r.json())
       .then((movies) => console.log(movies));
   }, []);
+
   return <h1>Hello from React!</h1>;
 }
 
